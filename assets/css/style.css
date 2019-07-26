@@ -3,7 +3,8 @@ body{
   font-family: Arial, Helvetica, sans-serif
   font-size: 15px;
   line-height: 1.5;
-  background: lightgray;
+ /* background: lightgray;*/
+ background-image:url("../images/tiny-squares.png");
 }
 
 /*container for everything to keep in place*/
@@ -12,7 +13,8 @@ body{
   margin:auto;
   overflow:hidden;
   background-color: white;
-  padding: 10px
+  padding: 10px;
+
 }
 
 /*syling for my top row */
@@ -22,6 +24,7 @@ header{
   color: gray;
   padding: top 30px;
   border-bottom:darkslategray;
+  border-bottom: 2px solid #cccccc;
 }
 
 /*get rid of default styling of links */
@@ -63,9 +66,13 @@ header nav{
   margin-top: 20px
 }
 
+p #firstParagraph {
+  float: left;
+  display: inline;
+}
+
 
 footer {
-  margin: 20px;
   padding-top: 20px;
   background: rgb(102, 102, 102);
   text-align: center; 
