@@ -96,7 +96,7 @@ form #txtArea{
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color:#cccccc;
+  background-color: #ffffff;
 }
 
 .flex-container > div {
@@ -116,4 +116,8 @@ footer {
   text-align: center; 
   border-top: rgb(74, 170, 165) 3px solid;
   color:white;
+}
+
+.footer{
+  flex-shrink: 0;
 }
