@@ -117,7 +117,3 @@ footer {
   border-top: rgb(74, 170, 165) 3px solid;
   color:white;
 }
-
-.footer{
-  flex-shrink: 0;
-}
